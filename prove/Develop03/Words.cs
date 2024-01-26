@@ -21,14 +21,7 @@ public class Words
     }
 
 
-    public bool Ishidden()
-    {
-        return true;
+   
 
-    }
-
-    public string GetDisplayText()
-    {
-        return "";
-    }
+  
 }
