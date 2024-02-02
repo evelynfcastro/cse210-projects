@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
-    }
+      Console.Write("Progress: ");
+for (int i = 0; i <= 100; i += 5)
+{
+    Console.Write($"[{i}%]");
+    Thread.Sleep(100);
+    Console.SetCursorPosition(Console.CursorLeft - 5, Console.CursorTop);
 }
+}
+    }
