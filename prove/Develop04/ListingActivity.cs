@@ -10,6 +10,7 @@ public class ListingActivity: Activity
 public void Ran(int duration)
 {
     DisplayStartingMessage("Listing Activity", "This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.");
+    Console.Clear();
     DisplayRandomPrompt();
     GetListFromUser(duration);
     DisplayEndingMessage("Listing Activity", duration);
@@ -39,7 +40,7 @@ public void GetListFromUser(int _time)
     
    while (DateTime.Now < futureTime)
    {
-    
+        Console.Write("> ");
         _userList.Add(Console.ReadLine());
         _acount= _acount+ 1;
         //Console.Write(".");

@@ -49,7 +49,7 @@ public class GratitudeActivity : Activity
     
    while (DateTime.Now < futureTime)
    {
-    
+        Console.Write("> ");
         _userList.Add(Console.ReadLine());
        
         
