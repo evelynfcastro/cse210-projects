@@ -4,6 +4,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello FinalProject World!");
+        
+
+      ProgramMeneger programMeneger = new ProgramMeneger();
+      programMeneger.GetStart();
+
+
+
+
+
     }
+
 }

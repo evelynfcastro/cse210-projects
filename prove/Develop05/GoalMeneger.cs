@@ -30,7 +30,7 @@ class GoalManager
        if (userChoice == "1")
        {
           Console.WriteLine("What is the type of goal do you want to creat?");
-          Console.WriteLine("1.Simple Goal \n 2.Eternal Goal \n z3.Checklist Goal");
+          Console.WriteLine("1.Simple Goal \n2.Eternal Goal \n3.Checklist Goal");
           Console.WriteLine("Which type of goal would like to create?");
           string typeGoal = Console.ReadLine();
             if (typeGoal == "1")
