@@ -7,7 +7,7 @@ public void GetSneaksInformation()
 }
     public override string AddToList()
     {
-        return $" Sneak {GetFoodName()} Calories: {GetFoodCalories()}";
+        return $" Sneak {GetFoodName()} Calories: {GetFoodCalories()} AT: {GetMealTime()}";
 
     }
     public override int TrackCalories()

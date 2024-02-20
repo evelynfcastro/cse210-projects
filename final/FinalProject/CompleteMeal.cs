@@ -67,7 +67,7 @@ public class CompleteMeal: Meal
 
     public override string AddToList()
     {
-       return $"Food {GetFoodName()} Calories:{GetFoodCalories()} Drink {GetDrinkName()} Calories: {GetDrinkCalories()} Dessert {GetDessertName()} Calories: {GetDessertCalories()} ";
+       return $"Food {GetFoodName()} Calories:{GetFoodCalories()} Drink {GetDrinkName()} Calories: {GetDrinkCalories()} Dessert {GetDessertName()} Calories: {GetDessertCalories()} AT:{GetMealTime()} ";
     }
 
     public override int TrackCalories()
